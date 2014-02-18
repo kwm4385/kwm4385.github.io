@@ -1,10 +1,10 @@
 function attachHoverListener(img_element, img_label) {
-    img_label.hide();
+    $(img_label).css("visibility", "hidden");
     $(img_element).hover(
       function() {
-        $(img_label).fadeIn();
+        $(img_label).css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0}, 250);
       }, function() {
-        $(img_label).fadeOut();
+        $(img_label).css({opacity: 1.0, visibility: "visible"}).animate({opacity: 0}, 250);
       }
     );
 }
