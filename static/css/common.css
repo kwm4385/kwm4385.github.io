@@ -21,7 +21,12 @@ body {
 .bodyrow {
     margin-top: 40px;
     padding:10px;
-    background-color:rgba(52,73,94,0.8);
+    background-color:rgba(5,125,159,0.9);
+}
+
+.contactrow {
+    padding:10px;
+    background-color:rgba(255,186,115,0.9);
 }
 
 .cursive {
