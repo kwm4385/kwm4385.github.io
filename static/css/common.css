@@ -1,3 +1,29 @@
-.red {
-    color:red;
+body { 
+  background: url(/static/img/bg.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Raleway', sans-serif;
+  color:#ffffff;
+}
+
+.centered {
+    text-align:center;
+}
+
+.headerrow {
+    margin-top: 40px;
+    background-color:rgba(0,0,0,0.5);
+    padding:10px;
+}
+
+.bodyrow {
+    margin-top: 40px;
+    padding:10px;
+    background-color:rgba(52,73,94,0.8);
+}
+
+.cursive {
+    font-family: 'Lemon', cursive;
 }
