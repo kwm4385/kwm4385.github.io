@@ -8,10 +8,6 @@ body {
   color:#ffffff;
 }
 
-.centered {
-    text-align:center;
-}
-
 .headerrow {
     margin-top: 40px;
     background-color:rgba(0,0,0,0.5);
@@ -21,14 +17,22 @@ body {
 .bodyrow {
     margin-top: 40px;
     padding:10px;
-    background-color:rgba(5,125,159,0.9);
+    background-color:rgba(5,125,159,0.8);
 }
 
 .contactrow {
-    padding:10px;
-    background-color:rgba(255,186,115,0.9);
+    background-color:rgba(0,0,0,0.8);
+}
+
+.contactrow-final {
+    padding-bottom:25px;
+    background-color:rgba(0,0,0,0.8);
 }
 
 .cursive {
     font-family: 'Lemon', cursive;
+}
+
+.centered {
+    text-align:center;
 }
