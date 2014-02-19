@@ -1,3 +1,7 @@
+html, body {
+  height: 100%;
+}
+
 body { 
   background: url(/static/img/bg.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -8,8 +12,27 @@ body {
   color:#ffffff;
 }
 
+#wrap {
+  min-height: 100%;
+  width:100%;
+}
+
+#main {
+  overflow:auto;
+  width:100%;
+  padding-bottom:120px; /* this needs to be bigger than footer height*/
+}
+
+.footer {
+  position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  clear:both;
+  padding-top:20px;
+} 
+
 .headerrow {
     margin-top: 40px;
+    margin-bottom: 100px;
     background-color:rgba(0,0,0,0.8);
     padding:10px;
 }
@@ -17,10 +40,13 @@ body {
 .bodyrow {
     margin-top: 40px;
     padding:10px;
+    width:75%;
+    margin-left:12%;
     background-color:rgba(5,125,159,0.8);
 }
 
 .contactrow {
+    margin-top:100px;
     background-color:rgba(0,0,0,0.8);
 }
 
