@@ -45,6 +45,15 @@ body {
     background-color:rgba(5,125,159,0.8);
 }
 
+.innerrow {
+  padding: 25px;
+}
+
+.col-inner {
+  color:#000000;
+  width:49%;
+}
+
 .contactrow {
     margin-top:100px;
     background-color:rgba(0,0,0,0.8);
