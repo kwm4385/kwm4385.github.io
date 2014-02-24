@@ -12,6 +12,10 @@ body {
   color:#ffffff;
 }
 
+#education-desc {
+  padding-top:10px;
+}
+
 #wrap {
   min-height: 100%;
   width:100%;
@@ -20,7 +24,7 @@ body {
 #main {
   overflow:auto;
   width:100%;
-  padding-bottom:120px; /* this needs to be bigger than footer height*/
+  padding-bottom:120px; /* bigger than footer height*/
 }
 
 .footer {
@@ -72,6 +76,6 @@ button {
   border-radius: 0 !important;
 }
 
-ul {
-    list-style-type: none;
+small {
+  color: #999;
 }
