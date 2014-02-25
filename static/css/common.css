@@ -27,6 +27,16 @@ body {
   padding-bottom:120px; /* bigger than footer height*/
 }
 
+#imgModal .modal-dialog {
+  width:50%;
+  overflow: auto;
+}
+
+#mimg {
+    display:block;
+    margin:auto;
+}
+
 .footer {
   position: relative;
   margin-top: -150px; /* negative value of footer height */
@@ -72,9 +82,10 @@ body {
     text-align:center;
 }
 
-#imgModal .modal-dialog {
-  max-width: 90%;
-  overflow: auto;
+.img-thumbnail {
+  cursor: pointer; 
+  cursor: hand;
+  margin-bottom: 10px;
 }
 
 button {
