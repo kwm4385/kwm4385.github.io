@@ -72,6 +72,11 @@ body {
     text-align:center;
 }
 
+#imgModal .modal-dialog {
+  max-width: 90%;
+  overflow: auto;
+}
+
 button {
   border-radius: 0 !important;
 }

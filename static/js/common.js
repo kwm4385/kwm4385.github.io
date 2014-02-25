@@ -14,3 +14,9 @@ $(document).ready(function() {
     attachHoverListener($("#gh-img"), $("#gh-label"));
     attachHoverListener($("#li-img"), $("#li-label"));
 });
+
+function imgModal(img) {
+  var sr = $(img).attr('src'); 
+  $('#mimg').attr('src',sr);
+  $('#imgModal').modal('show');
+}
