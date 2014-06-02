@@ -15,8 +15,9 @@ $(document).ready(function() {
     attachHoverListener($("#li-img"), $("#li-label"));
 });
 
-function imgModal(img) {
-  var sr = $(img).attr('src'); 
+function imgModal(img, title) {
+  var sr = $(img).attr('src');
   $('#mimg').attr('src',sr);
   $('#imgModal').modal('show');
+  $('#projectsLabel').text(title);
 }
