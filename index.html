@@ -66,8 +66,8 @@
                                             I live and grew up in Newtown, CT attending Newtown High School during which
                                             I developed my passion for computing and software engineering. I am interested in many facets of
                                             software including frontend, web design and development, algorithms, and databases. I am also a
-                                            hardware enthusiast who enjoys building and overclocking computers. Some of my other interests
-                                            include hiking, paintball, hockey.
+                                            hardware enthusiast who enjoys building and studying computers and the industry. Some of my other interests
+                                            include hiking, paintball, and hockey.
                                         </p>
                                     </div>
                                 </div>
@@ -75,7 +75,13 @@
                         </div>
 
                     </div>
+                    <div class="row innerrow centered">
+                        <div class="col-md-2 col-md-offset-5">
+                            <a href="/resume.pdf" target="blank"><button type="button" class="btn btn-lg btn-primary">Download Resume</button></a>
+                        </div>
+                    </div>
                 </div>
+
                 <div class="row bodyrow">
                     <div class="col-lg-12">
                         <h3>Skillset</h3>
@@ -88,13 +94,13 @@
                                         <div class="col-sm-4">
                                             <h4>Major</h4>
                                             <ul>
-                                                <li>Java <small>- Swing</small></li>
-                                                <li>Python</li>
-                                                <li>HTML/CSS <small>- including frameworks and templates</small></li>
+                                                <li>Java <small>- Swing, Play Framework</small></li>
+                                                <li>Python <small>- Django</small></li>
+                                                <li>HTML/CSS <small>- including frameworks and templating</small></li>
+                                                <li>Javascript <small>- jQuery, AJAX</small></li>
                                                 <li>XML, JSON <small>- processing, generating</small></li>
-                                                <li>Django</li>
                                                 <li>Bash</li>
-                                                <li>Text Editors <small>- Sublime Text, Vim</small></li>
+                                                <li>Text Editors <small>- Sublime Text, Vim, Atom</small></li>
                                                 <li>IDEs <small>- Eclipse, Netbeans</small></li>
                                                 <li>Version control <small>- Git, Subversion, CVS</small></li>
                                             </ul>
@@ -102,7 +108,7 @@
                                         <div class="col-sm-4">
                                             <h4>Minor</h4>
                                             <ul>
-                                                <li>Javascript <small>- jQuery, AJAX</small></li>
+                                                <li>Scala</li>
                                                 <li>Google Web Toolkit</li>
                                                 <li>Formal Methods <small>- Alloy Modeling, Promela</small></li>
                                                 <li>Unix / Linux</li>
@@ -115,18 +121,12 @@
                                                 <li>Statistical Modeling <small>- R, Minitab</small></li>
                                                 <li>Shell scripting <small>- Bash</small></li>
                                                 <li>Wordpress</li>
-                                                <li>SQL</li>
+                                                <li>mySQL, Postgres</li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
-                    <div class="row innerrow centered">
-                        <div class="col-md-2 col-md-offset-5">
-                            <a href="/resume.pdf" target="blank"><button type="button" class="btn btn-lg btn-primary">View My Resume</button></a>
                         </div>
                     </div>
                 </div>
@@ -139,6 +139,18 @@
                                 <div class="panel panel-default">
                                     <div class="panel-body">
                                         <div class="row">
+                                            <div class="col-md-4">
+                                                <img id="img" src="/static/img/coinsim.png" class="img-responsive img-thumbnail" onclick="imgModal(this, 'CoinSim');"/>
+                                                <p><strong>CoinSim Bitcoin Trading Simulator</strong> - <a href="http://www.coinsim.net">www.coinsim.net</a></p>
+                                                <p>
+                                                    Written as a side project in June 2014, this site allows users to create and manage multiple scenarios
+                                                    to practice trading <a href="https://bitcoin.org" target="blank">Bitcoin</a>. After creating an account,
+                                                    one can specify the amount of money to start a simulation with as well as an optional trading fee.
+                                                    He or she can then try a variety of trading strategies in order to maximize their net worth. The simulation
+                                                    uses real-time prices from Bitcoin exchanges to create a realistic experience. (<a href="https://github.com/kwm4385/coinsim" target="blank">Source</a>)
+                                                </p>
+                                                <p><small>Java, Play Framwork, Scala, Javascript, HTML/CSS</small></p>
+                                            </div>
                                             <div class="col-md-4">
                                                 <img id="img" src="/static/img/math.png" class="img-responsive img-thumbnail" onclick="imgModal(this, 'Calculus Practice Webapp');"/>
                                                 <p><strong>Calculus Practice Webapp</strong></p>
@@ -160,6 +172,19 @@
                                                 </p>
                                                 <p><small>Java, Swing</small></p>
                                             </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <img id="img" src="/static/img/mivs.png" class="img-responsive img-thumbnail" onclick="imgModal(this, 'Medical Image Viewing Console');"/>
+                                                <p><strong>Medical Image Viewing Console</strong></p>
+                                                <p>
+                                                    Created for the Engineering of Software Subsystems course, allows users to browse and manipulate medical scan images,
+                                                    create reconstructions along different axes, and organize images into studies. This program was engineered and written
+                                                    with a team of three other students using predefined requirements and use cases. (<a href="#" target="blank">Source</a>)
+                                                </p>
+                                                <p><small>Java, Swing</small></p>
+                                            </div>
                                             <div class="col-md-4">
                                                 <img id="img" src="/static/img/autodj.png" class="img-responsive img-thumbnail" onclick="imgModal(this, 'AutoDJ');"/>
                                                 <p><strong>AutoDJ</strong><small> - In Progress</small></p>
@@ -172,18 +197,6 @@
                                                     (<a href="https://github.com/kwm4385/autodj" target="blank">Source</a>)
                                                 </p>
                                                 <p><small>Python, Django, HTML/CSS, Javascript, jQuery, AJAX</small></p>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-md-4">
-                                                <img id="img" src="/static/img/mivs.png" class="img-responsive img-thumbnail" onclick="imgModal(this, 'Medical Image Viewing Console');"/>
-                                                <p><strong>Medical Image Viewing Console</strong></p>
-                                                <p>
-                                                    Created for the Engineering of Software Subsystems course, allows users to browse and manipulate medical scan images,
-                                                    create reconstructions along different axes, and organize images into studies. This program was engineered and written
-                                                    with a team of three other students using predefined requirements and use cases. (<a href="#" target="blank">Source</a>)
-                                                </p>
-                                                <p><small>Java, Swing</small></p>
                                             </div>
                                         </div>
                                       </div>
